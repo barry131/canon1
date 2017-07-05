@@ -1,0 +1,20 @@
+/*苹果4之类的屏幕尺寸*/
+@media screen and (max-height: 420px){
+    article {
+        width: 85%;
+        margin: 0 auto;
+    }
+    .one .font img:nth-child(4){
+        margin-left: 3%;
+    }
+}
+/*420到500之类的屏幕尺寸*/
+@media screen and (min-height: 421px) and (max-height:500px){
+    article {
+        width: 93%;
+        margin: 0 auto;
+    }
+    .one .font img:nth-child(4){
+        margin-left: 3%;
+    }
+}
